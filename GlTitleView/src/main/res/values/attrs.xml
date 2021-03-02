@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="GLTitleView">
+        <!--左边图片资源-->
+        <attr name="startImgResource" format="reference" />
+        <!--左边图片的大小-->
+        <attr name="startImgBounds" format="dimension" />
+        <!--左边图片和左边文字的距离-->
+        <attr name="startDrawablePadding" format="dimension" />
+
+        <!--右边图片资源-->
+        <attr name="endImgResource" format="reference" />
+        <!--右边图片的大小-->
+        <attr name="endImgBounds" format="dimension" />
+        <!--右边图片和左边文字的距离-->
+        <attr name="endDrawablePadding" format="dimension" />
+
+        <!--左边文字-->
+        <attr name="startTextString" format="string" />
+        <!--左边文字颜色-->
+        <attr name="startTextColor" format="color" />
+        <!--左边文字字体大小-->
+        <attr name="startTextSize" format="dimension" />
+        <!--左边文字是否加粗-->
+        <attr name="startTextBold" format="boolean" />
+        <!--左边到边框距离-->
+        <attr name="startTextPadding" format="dimension" />
+
+        <!--中间文字-->
+        <attr name="centerTextString" format="string" />
+        <!--中间文字颜色-->
+        <attr name="centerTextColor" format="color" />
+        <!--中间文字字体大小-->
+        <attr name="centerTextSize" format="dimension" />
+        <!--中间文字是否加粗-->
+        <attr name="centerTextBold" format="boolean" />
+
+        <!--右边文字-->
+        <attr name="endTextString" format="string" />
+        <!--右边文字颜色-->
+        <attr name="endTextColor" format="color" />
+        <!--右边文字字体大小-->
+        <attr name="endTextSize" format="dimension" />
+        <!--右边文字是否加粗-->
+        <attr name="endTextBold" format="boolean" />
+        <!--右边到边框距离-->
+        <attr name="endTextPadding" format="dimension" />
+
+        <!--选取自带样式-->
+        <attr name="colorStyle" format="enum">
+            <enum name="white" value="1" />
+            <enum name="blue" value="2" />
+        </attr>
+
+        <!--标题栏高度-->
+        <attr name="titleHeight" format="dimension" />
+        <!--标题栏背景颜色-->
+        <attr name="titleBackgroundColor" format="color" />
+
+        <!--自定义布局-->
+        <attr name="customizeLayout" format="reference" />
+
+        <!--是否绘制底部线-->
+        <attr name="isShowBottomLine" format="boolean" />
+        <!--绘制底部线颜色-->
+        <attr name="bottomLineColor" format="color" />
+        <!--绘制底部线高度-->
+        <attr name="bottomLineHeight" format="dimension" />
+        <!--绘制底部线到两边的距离-->
+        <attr name="bottomLineToBothSides" format="dimension" />
+
+    </declare-styleable>
+
+</resources>

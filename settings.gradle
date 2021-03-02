@@ -1,0 +1,3 @@
+include ':GlTitleView'
+include ':app'
+rootProject.name = "GLTitleView"
